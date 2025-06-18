@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="dreamweaver">
+  <meta name="author" content="DBCP, DBCP Secretariat Support at the WMO">
+  <meta name="description" content="data buoy cooperation panel (2025)">
+  <meta name="keywords" content="dbcp data buoy maps monthly status network jcomm goos gcos observations
+  gis google earth cooperation panel weather climate sea temperature air atmosphere pressure meteorology
+  climate ocean oceanography marine wind wave observing system ioc wmo unesco jcommops argo">
+  <link rel="icon" type="image/png" href="figures/favicon.png">
+  <title>Maps | Data Buoy Cooperation Panel</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body onload="setCopyrightYear()">  
+<!-- Header Section -->
+  <section class="header">
+      <div class="container header-flex">
+          <!--a href="index.html">
+            <img src="https://www.ocean-ops.org/dbcp/graph_ref/dbcp_light_text_150.png" alt="DBCP Logo" class="header-logo">
+          </a-->
+          <div class="header-content">
+            <h1>DBCP</h1>
+            <p>Data Buoy Cooperation Panel</p>
+          </div>
+      </div> 
+
+  <!-- Navigation Menu -->
+  <nav class="navbar">
+    <div class="container">
+    <div class="hamburger" id="hamburger"> &#9776; </div>
+      <ul class="menu" id="menu">
+        <li class="menu-item">
+          <a href="about.html">Who we are</a>
+          <ul class="submenu">
+            <li><a href="about.html">About us</a></li>
+            <li><a href="action_groups.html">Action groups</a></li>
+            <li><a href="sessions.html">Sessions</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a href="network_status_and_map.html">Data and Network</a>
+          <ul class="submenu">
+            <li><a href="network_status_and_map.html">Network status and map</a></li>
+            <li><a href="data_access.html">Data access</a></li>
+            <li><a href="qc.html">Quality control</a></li>
+            <li><a href="share_data.html">Share your data</a></li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a href="standard.html">Resources</a>
+          <ul class="submenu">
+            <li><a href="standard.html">Standard and best practices</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a href="platform.html">Learning</a>
+          <ul class="submenu">
+            <li><a href="platform.html">Observation platforms</a></li>
+            <li><a href="barometer_upgrade.html">Barometer upgrade</a></li>
+            <li><a href="data_uses.html">Uses of buoy data</a></li>
+            <li><a href="deployment.html">Deployment</a></li>
+            <li><a href="e_stewardship.html">Environmental stewardship</a></li>
+            <li><a href="anti_vandalism.html">Anti-vandalism</a></li>
+          </ul>
+        </li>
+    </ul>
+    </div>
+  </nav>
+
+  
+  </section>
+<!-- end of header section -->
+  
+
+
+<!-- WARNING -->
+<!-- WARNING -->
+<!-- WARNING: Please be aware of not changing anything above this line unless exeptionally necessary, thank you -->
+  
+  
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container" 
+      style="background-image: url('figures/headbanner02.png');">
+      <div class="hero-column-left">
+        <a href="index.html">
+          <img src="figures/favicon.png" alt="DBCP Logo" style="max-width: 120px;">
+        </a>
+      </div>
+      <div class="hero-column-mid">
+        <div class="hero-content">
+          <h1>Mapping the seas in real time: the global buoy network at work</h1>
+        </div>
+        <div class="hero-logos">
+          <a href="https://www.wmo.int">
+            <img src="figures/wmologo2016_acronym_vertical_cmyk_en.png" alt="Logo 2" class="logo">
+          </a>
+          <a href="https://www.ioc.unesco.org/en">
+            <img src="figures/IOC-UNESCO-Logo_final.png" alt="Logo 3" class="logo" style="max-height: 70px;">
+          </a>
+          <a href="https://goosocean.org">
+            <img src="figures/GOOS_logo_new.png" alt="Logo 4" class="logo">
+          </a>
+        </div>
+      </div>
+      <div class="hero-column-right"></div>
+    </div>
+  </section>
+
+
+<!-- Article Section with OceanOPS map -->
+
+<section class="article-section">
+  <div class="container">
+
+    <h2>The global buoy network</h2>
+    <p style="text-align: left">
+          The DBCP network is just one of the observing networks which make up the Global Ocean Observing System. The maintenance and expansion of the DBCP network is done within the context of the other networks and requirements for the integrated system.
+          DBCP monthly map products are available to visualise the buoy network as images (png or pdf format).
+          The interactive Viewers are available through <a href="https://www.ocean-ops.org/board"> OceanOps viewer</a>. 
+    </p>
+    <div id="map-preview"  style="text-align: center; ">
+        <p id='iframe-loader'>loading maps...</p>
+        <iframe style="border: 0;width: 1000px;height:720px;" onerror="document.getElementById('iframe-loader').innerHTML = 'Error while loading maps'" onload="document.getElementById('iframe-loader').style.display = 'none'"  src="https://www.ocean-ops.org/maps/static/index.html?t=dbcp"></iframe>
+    </div>
+    <p style="text-align: center; " ><strong>Full screen:</strong> Go to <a href="https://www.ocean-ops.org/board/wa/Archives?t=dbcp" title="DBCP Monthly Maps page https://www.ocean-ops.org/board/wa/Archives?t=dbcp">OceanOps Map Viewer</a></p>
+
+  </div>
+</section>
+
+
+
+<!-- Article Section with one coloumn only -->
+
+<section class="article-section">
+  <div class="container">
+    <div class="content" >
+
+    <div class="left-text">
+        <h3>Maintaining and expanding the network</h3>
+        <p style="text-align: left">
+          Whilst the DBCP network of over 1250 drifting buoys and 400 moored buoys was completed in 2005, there are still ongoing challenges in sustaining and improving the network. These are detailed in the
+          <a href="#">DBCP implementation strategy</a>.
+        </p>
+        <p style="text-align: left">
+          One of the ongoing challenges are the increasing needs of barometer upgrade. 
+          The measurement of air pressure is important for the weather forecasting. The DBCP aims to have air pressure measurements, using a Barometer Port, on as many buoys as possible focusing on high latitudes and remote ocean areas. An <a href="barometer_upgrade.html">upgrade scheme</a> was introduced to encourage the addition of barometers on drifters.
+        </p>
+        <p style="text-align: left">
+          The buoy network is, in reality, not evenly dispersed across the whole ocean, due to difficulties in deploying buoys in very remote areas (especially the southern ocean) and because the buoys, following currents, drift out of some areas quickly or converge in other areas. This is a major challenge for the DBCP.
+        </p>
+        <p style="text-align: left">
+          The DBCP has an ongoing program of developing and testing new sensors and uses for drifting buoys. More detail is available on the <a href="data_uses.html">Data Uses</a> page.
+        </p>
+    </div>
+ 
+    <div class="right-column">
+        <h3>Other Data Buoy Maps</h3>
+        <ul class="custom-bullets">
+          <li style="text-align: left"><a href="https://wdqms.wmo.int/nwp/marine_surface">WMO Data Quality Monitoring System - Marine Surface observations</a> </li>
+	  <li style="text-align: left"><a href="http://www.aoml.noaa.gov/phod/graphics/dacdata/globpop.gif">Global Drifter Program Array Status</a> </li>
+          <li style="text-align: left"><a href="http://www.aoml.noaa.gov/phod/graphics/dacdata/forecast90d.gif">Global Drifter Program Forecast (90 Day Prediction)</a></li>
+          <li style="text-align: left"><a href="http://isdm.gc.ca/isdm-gdsi/drib-bder/index-eng.htm">Global Archiving Centre (ISDM Canada)</a></li>
+        </ul>
+        <h3>GOOS Interactive Maps</h3>
+        <p style="text-align: left"><a href="http://www.ocean-ops.org/board/wa/Archives?t=JCOMMOPS">GOOS Monthly Status</a></p>
+    </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Related article section -->
+
+<section class="article-section"> 
+  <div class="container">
+    <div class="content" >
+     <h3><i>Related articles</i></h3>
+    </div>
+    <div class="content" >
+     <div class="fourparts-one";>
+        <figure>
+          <img src="figures/thumbnail_data_uses.jpg" alt="related articles"/>
+          <a href="data_uses.html">
+            <p style="text-align: center;">Uses of buoy data</p>
+          </a>
+        </figure>
+     </div>
+     <div class="fourparts-two">
+        <figure>
+          <img src="figures/thumbnail_barometer_upgrade.jpg" alt="related articles"/>
+          <a href="barometer_upgrade.html">
+            <p style="text-align: center; ">Barometer upgrade</p>
+          </a>
+        </figure>
+     </div>
+     <div class="fourparts-three">
+        <figure>
+          <img src="figures/thumbnail_data_access.jpg" alt="related articles"/>
+          <a href="data_access.html">
+            <p style="text-align: center; ">Accessing buoy data</p>
+          </a>
+        </figure>
+     </div>
+     <div class="fourparts-four">
+        <figure>
+          <img src="figures/thumbnail_qc.jpg" alt="related articles"/>
+          <a href="qc.html">
+            <p style="text-align: center; ">Buoy data quality control</p>
+          </a>
+        </figure>
+    </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- WARNING -->
+<!-- WARNING -->
+<!-- WARNING: Please be aware of not changing anything beyond this line unless exeptionally necessary, thank you -->
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <h4>About the DBCP</h4>
+        <p>
+          The DBCP focuses on advancing ocean observation through collaborative efforts, enhancing data collection for marine and climate research.
+        </p>
+      </div>
+      <div class="footer-social">
+        <h4>DBCP Newsletter</h4>
+        <div class="social-icons">
+          <a href="newsletter.html"><img src="https://e7.pngegg.com/pngimages/378/897/png-clipart-flat-design-newsletter-design-orange-logo-thumbnail.png" alt="Newsletter Icon" style="width: 40px; height: auto;"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright © 2025 Data Buoy Cooperation Panel. All Rights Reserved. Privacy Statement. Terms of Use.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+<!-- **********************************-->
+<!-- *** Code for Google Analytics ***-->
+<!-- **********************************-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3558742-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- ********************************-->
+<!-- End of Code for Google Analytics-->
+<!-- ********************************-->
+
+</body>
+</html>
