@@ -493,14 +493,13 @@ body {
 
 .article-section .fourparts-one {
   flex: 1;
-  max-width: 270px; 
-  min-width: 250px;  
+  max-width: 170px; 
+  min-width: 150px;  
 }
 
 .article-section .fourparts-one figure {
-  max-width: 270px; 
+  max-width: 170px; 
   margin: 0; 
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -519,14 +518,13 @@ body {
 
 .article-section .fourparts-two {
   flex: 2;
-  max-width: 270px; 
-  min-width: 250px;  
+  max-width: 370px; 
+  min-width: 350px;  
 }
 
 .article-section .fourparts-two figure {
-  max-width: 270px; 
+  max-width: 370px; 
   margin: 0; 
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -545,14 +543,13 @@ body {
 
 .article-section .fourparts-three {
   flex: 3;
-  max-width: 270px; 
-  min-width: 250px;  
+  max-width: 170px; 
+  min-width: 150px;  
 }
 
 .article-section .fourparts-three figure {
-  max-width: 270px; 
+  max-width: 170px; 
   margin: 0; 
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -571,14 +568,13 @@ body {
 
 .article-section .fourparts-four {
   flex: 4;
-  max-width: 270px; 
-  min-width: 250px;  
+  max-width: 370px; 
+  min-width: 350px;  
 }
 
 .article-section .fourparts-four figure {
-  max-width: 270px; 
+  max-width: 370px; 
   margin: 0; 
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
