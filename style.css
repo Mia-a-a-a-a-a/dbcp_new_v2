@@ -487,18 +487,67 @@ body {
   margin-top: 10px; 
 }
 
+/* TT Section contains 4 parts*/
 
-
-/* Article Section contains 4 parts*/
-
-.article-section .fourparts-one {
+.article-section .tt-one {
   flex: 1;
   max-width: 170px; 
   min-width: 150px;  
 }
 
-.article-section .fourparts-one figure {
+.article-section .tt-one figure {
   max-width: 170px; 
+  margin: 0; 
+  padding-bottom: 20px;
+}
+
+.article-section .tt-one img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 8px;
+}
+
+.article-section .tt-one-text {
+  flex: 2;
+  max-width: 370px; 
+  min-width: 350px;  
+}
+
+.article-section .tt-two {
+  flex: 1;
+  max-width: 170px; 
+  min-width: 150px;  
+}
+
+.article-section .tt-two figure {
+  max-width: 170px; 
+  margin: 0; 
+  padding-bottom: 20px;
+}
+
+.article-section .tt-two img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 8px;
+}
+
+.article-section .tt-two-text {
+  flex: 2;
+  max-width: 370px; 
+  min-width: 350px;  
+}
+
+
+/* Related Article Section contains 4 parts*/
+
+.article-section .fourparts-one {
+  flex: 1;
+  max-width: 270px; 
+  min-width: 250px;  
+}
+
+.article-section .fourparts-one figure {
+  max-width: 270px; 
   margin: 0; 
   padding-bottom: 20px;
 }
@@ -518,12 +567,12 @@ body {
 
 .article-section .fourparts-two {
   flex: 2;
-  max-width: 370px; 
-  min-width: 350px;  
+  max-width: 270px; 
+  min-width: 250px;  
 }
 
 .article-section .fourparts-two figure {
-  max-width: 370px; 
+  max-width: 270px; 
   margin: 0; 
   padding-bottom: 20px;
 }
@@ -543,12 +592,12 @@ body {
 
 .article-section .fourparts-three {
   flex: 3;
-  max-width: 170px; 
-  min-width: 150px;  
+  max-width: 270px; 
+  min-width: 250px;  
 }
 
 .article-section .fourparts-three figure {
-  max-width: 170px; 
+  max-width: 270px; 
   margin: 0; 
   padding-bottom: 20px;
 }
@@ -568,12 +617,12 @@ body {
 
 .article-section .fourparts-four {
   flex: 4;
-  max-width: 370px; 
-  min-width: 350px;  
+  max-width: 270px; 
+  min-width: 250px;  
 }
 
 .article-section .fourparts-four figure {
-  max-width: 370px; 
+  max-width: 270px; 
   margin: 0; 
   padding-bottom: 20px;
 }
