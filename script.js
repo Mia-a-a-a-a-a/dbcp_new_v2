@@ -10,15 +10,25 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   document.querySelectorAll('.menu-item').forEach((item) => {
-    item.addEventListener('click', (e) => {
-      console.log('Menu item clicked');
-      const submenu = item.querySelector('.submenu');
-      const link = item.querySelector('a');  // Check if the item has a link
+  const link = item.querySelector('a');
+  const submenu = item.querySelector('.submenu');
 
-      if (submenu && !link) {  // Prevent default only if there is a submenu and no link
-        e.preventDefault();
-        submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
-      }
+  if (submenu) {
+    // Prevent link default on first click, toggle submenu
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+
+      // Close other submenus if you want only one open at a time
+      document.querySelectorAll('.menu-item.open').forEach(openItem => {
+        if (openItem !== item) {
+          openItem.classList.remove('open');
+        }
+      });
+
+      item.classList.toggle('open');
     });
+   }
   });
+
+
 });

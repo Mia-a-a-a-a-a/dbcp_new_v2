@@ -110,8 +110,13 @@ body {
   white-space: nowrap; /* Prevent wrapping of text */
 }
 
-.menu-item:hover .submenu {
+.menu-item.open .submenu {
   display: block;
+}
+
+.menu-item > a::after {
+  content: ' ▼';
+  font-size: 0.6rem;
 }
 
 .submenu li a:hover {
@@ -142,6 +147,7 @@ body {
   max-width: 12%;
   display: flex;
   align-items: flex-start;
+  justify-content:center;
   margin: 150px 00px 150px 00px;
   padding: 20px;
 }
