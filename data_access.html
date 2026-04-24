@@ -10,19 +10,19 @@
   gis google earth cooperation panel weather climate sea temperature air atmosphere pressure meteorology
   climate ocean oceanography marine wind wave observing system ioc wmo unesco jcommops argo">
   <link rel="icon" type="image/png" href="figures/favicon.png">
-  <title>Data Access | Data Buoy Cooperation Panel</title>
+  <title>Data Buoy Cooperation Panel</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
   
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 <!-- Header Section -->
   <section class="header">
       <div class="container header-flex">
-          <!--a href="index.html">
-            <img src="https://www.ocean-ops.org/dbcp/graph_ref/dbcp_light_text_150.png" alt="DBCP Logo" class="header-logo">
-          </a-->
           <div class="header-content">
-            <h1>DBCP</h1>
+            <h1><a href="index.html" style="text-decoration: none; color: inherit;">DBCP</a></h1>
             <p>Data Buoy Cooperation Panel</p>
           </div>
       </div> 
@@ -127,9 +127,9 @@
         </p>
         <p style="text-align: left">
           <ul class="custom-bullets">
-            <li style="text-align: left">What is a <a href="https://community.wmo.int/en/activity-areas/global-telecommunication-system-gts">GTS</a></li>
-            <li style="text-align: left"><a href="https://esurfmar.meteo.fr/qctools/">Graphical views of GTS data for 16 days, for active buoys, by MeteoFrance</a></li>
-            <li style="text-align: left"><a href="https://community.wmo.int/en/activity-areas/wis/wis2-implementation">The WMO Information System WIS2.0</a></li>
+            <li style="text-align: left">What is a <a href="https://community.wmo.int/site/knowledge-hub/programmes-initiatives/wmo-information-system-wis/guidance-transition-from-gtswis1-wis2">GTS</a></li>
+            <li style="text-align: left"><a href="https://esurfmar.meteo.fr/qctools/">Graphical views of GTS data for past 30 days, for active buoys, by MeteoFrance</a></li>
+            <li style="text-align: left"><a href="https://community.wmo.int/wis-20">The WMO Information System WIS2.0</a></li>
           </ul>
         </p>
         <h3>Near-real time and Archived data</h3>
@@ -146,9 +146,10 @@
         <h3>References</h3>
         <p style="text-align: left">
           <ul class="custom-bullets">
-            <li style="text-align: left"><a href="https://community.wmo.int/en/resolution-40">WMO data policy Resolution 40</a></li>
-            <li style="text-align: left"><a href="https://oceanexpert.org/document/251">IODE data policy</a></li>
-            <li style="text-align: left"><a href="">CLIVAR data policy</a></li>
+            <li style="text-align: left"><a href="https://library.wmo.int/viewer/56926/download?file=1244_en.pdf&type=pdf&navigator=1">WMO Data policy Resolution 40</a></li>
+            <li style="text-align: left"><a href="https://oceanexpert.org/document/251">IODE Data Policy</a></li>
+            <li style="text-align: left"><a href="https://oceanexpert.org/downloadFile/55604">OCG Data Implementation Strategy</a></li>
+            <li style="text-align: left"><a href="#">CLIVAR data policy</a></li>
             <li style="text-align: left"><a href="https://isdm.gc.ca/isdm-gdsi/index-eng.html">ISDM (Canada) Scientific Data and Products</a></li>
             <li style="text-align: left"><a href="https://www.aoml.noaa.gov/phod/gdp/data.php">AOML Data Assembly Center (Drifter Data)</a></li>
             <li style="text-align: left"><a href="https://www.ndbc.noaa.gov/">NOAA National Data Buoy Center (NDBC)</a></li>
@@ -201,7 +202,10 @@
           <b>Instrumental Metadata</b>
           </p>
           <p style="text-align: left; ">
-          There has been an increasing demand for instrumental metadata in recent years to serve a number of applications - and climate studies in particular. The DBCP has established its own metadata collection system at OceanOPS and is participating in the water temperature metadata Pilot Project (META-T).
+          There has been an increasing demand for instrumental metadata in recent years to serve a number of applications, 
+          and climate studies in particular. Similar to other GOOS networks, DBCP platform operators provide metadata to 
+          <a href="https://www.ocean-ops.org/board?t=dbcp">OceanOPS</a>, where OceanOPS transfers some of the metadata including mandatory 
+          metadata to the <a href="https://oscar.wmo.int/surface/#/">WMO OSCAR</a> system.
           </p>
         </figure>
      </div>
@@ -289,14 +293,13 @@
       <div class="footer-social">
         <h4>DBCP Newsletter</h4>
         <div class="social-icons">
-          <a href="newsletter.html"><img src="https://e7.pngegg.com/pngimages/378/897/png-clipart-flat-design-newsletter-design-orange-logo-thumbnail.png" alt="Newsletter Icon" style="width: 40px; height: auto;"></a>
+          <a href="newsletter.html"><img src="figures/newsletter_icon.png" alt="Newsletter Icon" style="width: 40px; height: auto;"></a>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
       <p>© 2025 <a href="index.html">Data Buoy Cooperation Panel (DBCP)</a></p>
-      <ul class="footer-bottom-links">
-      <p><a href="copyright.html#Copyright">Copyright</a> | <a href="copyright.html#Disclaimer">Disclaimer</a> | <a href="copyright.html#Privacy_Policy">Privacy Policy</a></p>
+      <p class="footer-bottom-links"><a href="copyright.html#Copyright">Copyright</a> | <a href="copyright.html#Disclaimer">Disclaimer</a> | <a href="copyright.html#Privacy_Policy">Privacy Policy</a></p>
     </div>
   </footer>
 
